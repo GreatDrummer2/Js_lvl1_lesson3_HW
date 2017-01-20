@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript">
+    var counter = 0;
+    while(counter < 4){
+      var row2 = '';
+      for (var i = 0; i < 8 ; i++) {
+        if(i % 2 == 0){
+          row2 += '#';
+        }
+        else{
+          row2 += ' ';
+        }
+      }
+       console.log(row2);
+
+       var row1 = '';
+       for (var i = 0; i < 8 ; i++) {
+        if(i % 2 == 0){
+          row1 += ' ';
+        }
+        else{
+          row1 += '#';
+        }
+      }
+      console.log(row1);
+      counter++;
+    }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
