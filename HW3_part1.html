@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <script type="text/javascript">
     for (var i = 0; i < 7; i++) {
-      var count = 0;
-      var piramid = '';
-      while(count < i + 1){
-        piramid += '#';
+      var count = 0; // счетчик решеток
+      var piramid = ''; // строка с решетками
+      while(count < i + 1){ /* количество решеток = номеру ряда */
+        piramid += '#'; // добавляет в строку решеток
         count++;
       } 
-      console.log(piramid); 
+      console.log(piramid); // выводит ряд
     }
   </script>
 </head>
