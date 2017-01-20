@@ -3,22 +3,22 @@
 <head>
     <title></title>
     <script type="text/javascript">
-    var counter = 0;
-    while(counter < 4){
+    var counter = 0; // считает пары рядов
+    while(counter < 4){ // выводит 4 пары,получается сетка 8*8
       var row2 = '';
       for (var i = 0; i < 8 ; i++) {
-        if(i % 2 == 0){
-          row2 += '#';
+        if(i % 2 == 0){ // выводит ряд с начальным знаком # 
+          row2 += '#'; // через каждый знак добавляет #
         }
         else{
-          row2 += ' ';
+          row2 += ' '; //пробел между # 
         }
       }
        console.log(row2);
 
        var row1 = '';
-       for (var i = 0; i < 8 ; i++) {
-        if(i % 2 == 0){
+       for (var i = 0; i < 8 ; i++) { // выводит ряд с начальным знаком пробелом
+        if(i % 2 == 0){ // делается то же самое,что и в предыдущем for но только условия наоборот применены
           row1 += ' ';
         }
         else{
